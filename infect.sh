@@ -91,7 +91,7 @@ echo " "
 echo " "
 echo -e "$grn               >＞＞＞＞＞$ylo [ВЫБРАТЬ]$grn ＜＜＜＜＜<$rset"
 echo " "
-echo -ne "\e[92m#SELECT OPTION\e[92m: "
+echo -ne "\e[92m#ВАРИАНТЫ ВЫБОРА\e[92m: "
 read optnz
 if [ $optnz = "1" ];
 then
@@ -262,14 +262,14 @@ fi
 pop(){
 clear
 echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
-echo -e "\e[96m                ║  \e[93mHAI, I JUST UPLOADED NEW\e[96m VIDEO   ║\e[0m"
-echo -e "\e[96m                ║      WATCH NEW VIDEO NOW.....!    ║\e[0m"
-echo -e "\e[96m                ║                                   ║\e[0m"
-echo -e "\e[96m                ║        Select \e[92my\e[96m to watch\e[96m          ║\e[0m"
-echo -e "\e[96m                ║                (\e[93mOR\e[96m)               \e[96m║\e[0m"
-echo -e "\e[96m                ║        Select \e[91mt\e[96m to cancel\e[96m         ║\e[0m"
-echo -e "\e[96m                ║                (\e[93mOR\e[96m)               \e[96m║\e[0m"
-echo -e "\e[96m                ║     Select \e[91mz\e[96m to skipforever\e[96m       ║\e[0m"
+echo -e "\e[96m                ║  \e[93mПривет, я просто загрузил новое \e[96m ВИДЕО   ║\e[0m"
+echo -e "\e[96m                ║      посмотреть новое выдео сейчас.....!              ║\e[0m"
+echo -e "\e[96m                ║                                                       ║\e[0m"
+echo -e "\e[96m                ║        ВЫБЕРИ \e[92my\e[96m чтобы смотреть\e[96m      ║\e[0m"
+echo -e "\e[96m                ║                (\e[93mOR\e[96m)                 \e[96m║\e[0m"
+echo -e "\e[96m                ║        ВЫБЕРИ \e[91mt\e[96m для отмены\e[96m          ║\e[0m"
+echo -e "\e[96m                ║                (\e[93mOR\e[96m)                 \e[96m║\e[0m"
+echo -e "\e[96m                ║     ВЫБЕРИ \e[91mz\e[96m пропустить навсегда\e[96m    ║\e[0m"
 echo -e "\e[96m                ╚═══════════════════════════════════╝\e[0m"
 echo -en "\e[32mSELECT OPTION [\e[93my/\e[93mt/\e[32m\e[93mz\e[32m]: \e[0m "
 read p
